@@ -37,13 +37,13 @@ class TravelOfficeApplicationTests {
     }
 
     @Test
-    void addCustomer() throws Exception{
+    void addCustomer() throws Exception {
         Customer customer = createCustomer();
         assertThat(customer.getId()).isNotNull();
         assertThat(customer.getName()).isEqualTo("TestName");
     }
 
-    private Customer createCustomer() throws Exception{
+    private Customer createCustomer() throws Exception {
         Customer customer = getCustomer();
 
         String postValue = OBJECT_MAPPER.writeValueAsString(customer);
