@@ -19,7 +19,7 @@ public class Customer {
         this.name = name;
     }
 
-    public Customer() {};
+    public Customer() {}
 
     @Override
     public String toString() {

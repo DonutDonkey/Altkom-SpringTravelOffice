@@ -14,7 +14,7 @@ public class MyDate {
         this.day = day;
     }
 
-    public MyDate() { }
+    public MyDate() {}
 
     @Override
     public String toString() {

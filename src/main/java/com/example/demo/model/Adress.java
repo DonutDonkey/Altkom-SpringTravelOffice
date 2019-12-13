@@ -14,7 +14,7 @@ public class Adress {
         this.city = city;
     }
 
-    public Adress() { }
+    public Adress() {}
 
     @Override
     public String toString() {

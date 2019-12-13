@@ -17,7 +17,7 @@ public class Trip {
         this.destination = destination;
     }
 
-    public Trip() { }
+    public Trip() {}
 
     private String getPriceString() { return ((Double)getPrice()).toString(); }
 
