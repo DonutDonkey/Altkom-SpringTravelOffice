@@ -1,6 +1,5 @@
 package com.example.demo.repository;
 
-import com.example.demo.exceptions.MyException;
 import com.example.demo.model.Customer;
 import org.springframework.stereotype.Repository;
 

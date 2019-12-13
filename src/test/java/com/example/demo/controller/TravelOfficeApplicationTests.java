@@ -24,7 +24,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @RunWith(SpringRunner.class)
 @SpringBootTest
 @AutoConfigureMockMvc
-class DemoApplicationTests {
+class TravelOfficeApplicationTests {
     private static final ObjectMapper OBJECT_MAPPER = new ObjectMapper();
 
     @Autowired

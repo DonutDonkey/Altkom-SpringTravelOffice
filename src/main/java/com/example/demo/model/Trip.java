@@ -9,8 +9,7 @@ public class Trip {
 
     private String destination;
 
-    private double    price;
-    public  double getPrice() { return price; }
+    private double price;
 
     public Trip(MyDate start, MyDate end, String destination) {
         this.start = start;
