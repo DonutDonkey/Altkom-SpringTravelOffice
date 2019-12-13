@@ -14,10 +14,7 @@ public class TravelOffice {
         customerMap.put(2L, new Customer(2L, "Customer2"));
     }
 
-    public void addCustomer(Customer customer) {
-        customerMap.put(customer.getId(),customer);
-//        throw new MyException();
-    }
+    public void addCustomer(Customer customer) { customerMap.put(customer.getId(),customer); }
 
     public void removeCustomer(Long key) { customerMap.remove(key); }
 
