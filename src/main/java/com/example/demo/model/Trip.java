@@ -19,9 +19,13 @@ public class Trip {
 
     public Trip() {}
 
-    private String getPriceString() { return ((Double)getPrice()).toString(); }
+    private String getPriceString() {
+        return ((Double)getPrice()).toString();
+    }
 
-    protected String checkIfAssignedPrice() { return (getPrice() <= 0) ? "NO ASSIGNED PRICE" : getPriceString(); }
+    protected String checkIfAssignedPrice() {
+        return (getPrice() <= 0) ? "NO ASSIGNED PRICE" : getPriceString();
+    }
 
     @Override
     public String toString() {

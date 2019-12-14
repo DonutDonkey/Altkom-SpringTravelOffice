@@ -23,8 +23,12 @@ public class TravelOfficeControler {
     }
 
     @PostMapping
-    public void removeCustomer(@RequestBody Long key) { travelOffice.removeCustomer(key); }
+    public void removeCustomer(@RequestBody Long key) {
+        travelOffice.removeCustomer(key);
+    }
 
     @GetMapping("/getAllCustomers")
-    public Map<Long, Customer> getAllCustomers() { return new HashMap<>(travelOffice.getCustomersMap()); }
+    public Map<Long, Customer> getAllCustomers() {
+        return new HashMap<>(travelOffice.getCustomersMap());
+    }
 }

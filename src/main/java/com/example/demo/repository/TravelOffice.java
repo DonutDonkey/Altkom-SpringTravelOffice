@@ -13,11 +13,17 @@ public class TravelOffice {
         customerMap.put(2L, new Customer(2L, "Customer2"));
     }
 
-    public void addCustomer(Customer customer) { customerMap.put(customer.getId(),customer); }
+    public void addCustomer(Customer customer) {
+        customerMap.put(customer.getId(),customer);
+    }
 
-    public void removeCustomer(Long key) { customerMap.remove(key); }
+    public void removeCustomer(Long key) {
+        customerMap.remove(key);
+    }
 
-    public Map<Long, Customer> getCustomersMap() { return customerMap; }
+    public Map<Long, Customer> getCustomersMap() {
+        return customerMap;
+    }
 
     @Override
     public String toString() {

@@ -7,7 +7,9 @@ public class AbroadTrip extends Trip {
     private double insurance;
 
     @Override
-    public double getPrice() { return super.getPrice() + insurance; }
+    public double getPrice() {
+        return super.getPrice() + insurance;
+    }
 
     @Override
     protected String checkIfAssignedPrice() {
